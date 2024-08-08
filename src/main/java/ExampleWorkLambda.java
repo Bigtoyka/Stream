@@ -1,4 +1,4 @@
-public class Main {
+public class ExampleWorkLambda {
     public static void main(String[] args) {
         Director director = new Director();
         String res = director.force((int n) -> {
@@ -8,6 +8,5 @@ public class Main {
             return "Success";
         },5);
         System.out.println(res);
-
     }
 }
